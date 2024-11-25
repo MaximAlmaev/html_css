@@ -1,0 +1,29 @@
+.block-card{
+
+display: flex;
+flex-direction: row;
+}
+body {
+    position: relative;
+}
+#side-menu {
+    width: 160px;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;
+}
+.content {
+    margin-left: 160px;
+    margin-top: 50px;
+}
+#header{
+    position: fixed;
+}
+h2 {
+    text-align: center;
+}
